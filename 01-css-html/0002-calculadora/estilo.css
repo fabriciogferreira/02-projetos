@@ -1,0 +1,74 @@
+/*
+Fundo Calculadora: #1F1F1F
+Fundo Equação: #38393D
+Fundo Numero: #28282A
+Fundo Sinais: #004A77
+Fundo AC: #0F5324
+Fundo Igual: #0742A0
+*/
+
+:root{
+    --bg-calculator: #1F1F1F;
+    --bg-equation: #38393D;
+    --bg-numbers: #28282A;
+    --bg-signs: #004A77;
+    --bg-ac: #0F5324;
+    --bg-equal: #0742A0;
+}
+
+body{
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    background-color: var(--bg-equation);
+    color: white;
+    padding: 10px;
+}
+
+table{
+    width: max-content;
+    border-radius: 10px;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+    background-color: var(--bg-calculator);
+}
+
+td{
+    border-radius: 100px;
+    width: 70px;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+input{
+    color: white;
+    width: 100%;
+    border: 1px solid white; 
+    height: 100px;
+    border-radius: 10%;
+}
+
+.--bg-equation{
+    padding: 0px;
+    background-color: var(--bg-equation);
+    border: 0px;
+    border-radius: 0px;
+}
+.--bg-numbers{
+    background-color: #28282A;
+}
+.--bg-signs{
+    background-color: #004A77;
+}
+.--bg-ac{
+    background-color: #0F5324;
+}
+.--bg-equal{
+    background-color: #0742A0;
+}
