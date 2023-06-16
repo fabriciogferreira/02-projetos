@@ -1,0 +1,84 @@
+:root{
+    --color-font: #a0e081;
+    --color-font-forte: #196d17;
+    --color-black: black;
+    --color-cinza-main: #171615;
+    --color-body: #ececec;
+    --color-last-footer: #313131;
+    --color-second-footer: #111;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-cinza-main{
+    background-color: #171615;
+}
+
+.bg-body{
+    background-color: #ececec;
+}
+
+.bg-last-footer{
+    background-color: #313131;
+}
+
+.bg-second-footer{
+    background-color: #111;
+}
+
+.font{
+    color: var(--color-font);
+}
+
+.color-white{
+    color: white;
+}
+
+.font-forte{
+    color: var(--color-font-forte);
+}
+
+.align-right{
+    text-align: right;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.nav-ul > li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.justify-content-sb{
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+.mg-pd-0{
+    margin: 0px;
+    padding: 0px;
+}
+
+.at-obter-minecraft{
+    background-image: url(imagens/header/home-hero-1200x600.webp);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: center;
+}
+
+.sc-jogos{
+    background-image: url(imagens/main/);
+}
